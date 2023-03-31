@@ -31,10 +31,10 @@ footer {
     width: 80%;
 }
 
-.imagenes {
+/* .imagenes {
     width: 80%;
     margin: 0 auto;
-}
+} */
 
 .row {
     display: flex;
@@ -43,13 +43,13 @@ footer {
     margin: 0 auto;
 }
 
-.img {
+/* .img {
     height: 250px;
     width: 200px;
     margin: 0;
     padding: 1rem;
     object-fit: cover;
-}
+} */
 
 
 /* navi */
@@ -122,9 +122,9 @@ a:hover {
 
 .form-button button {
     width: 40%;
-    background-color: #7ca8e0;
-    height: 2rem;
-    color: white;
+    /* background-color: #7ca8e0; */
+    height: 3rem;
+    /* color: white; */
     font-weight: bolder;
     font-size: 1.5rem;
 }
@@ -132,7 +132,7 @@ a:hover {
 
 /* Para teléfonos móviles: */
 
-@media screen and (max-width: 414px) {
+/* @media screen and (max-width: 414px) {
     html {
         font-size: 14px;
     }
@@ -165,10 +165,10 @@ a:hover {
     }
     .col{
         width: 100%;
-    }
+    } */
 
     /* FORMULARIO CONTACTO */
-    .container{
+    /* .container{
         width: 90%;
         padding: 1rem 0;
         box-sizing: content-box;
@@ -178,7 +178,6 @@ a:hover {
     }
     .form-group{
         width: auto;
-        /* margin-bottom: 2rem; */
         background-color: #7ca8e0;
         display: flex;
         flex-direction: column;
@@ -190,7 +189,7 @@ a:hover {
 
 
 
-}
+} */
 
 
 
