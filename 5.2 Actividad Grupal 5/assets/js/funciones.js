@@ -13,6 +13,19 @@ function validarFormulario() {
     
     return true; // Permitir que se envíe el formulario
   }
+  
 
-  // Busca el botón de envío por su ID y agrega el atributo onclick
-document.getElementById("enviar").setAttribute("onclick", "return validarFormulario()");
+  window.addEventListener("load",function(event){//cuando este cargado
+
+    let form = document.getElementById("formulario");//se obtiene form
+    form.addEventListener("submit", function(event) {//event listener de submit de form
+      event.preventDefault();//se rpeviene el sumbit default
+      if(validarFormulario()){//si funcion retorna true hace lo siguiente
+        form.submit();//submitear el formulario
+      }
+    });
+    
+  })
+  
+
+
