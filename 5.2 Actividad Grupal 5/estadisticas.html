@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina web empresa Te lo Vendo">
+    <meta name="keywords" content="venta, e-commerce, emprendimiento">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1374/1374123.png" type="image/te-lo-vendo">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+
+
+    <title>Te lo Vendo</title>
+    <!-- 
+     Integrantes:
+       -Claudio Cabrera 
+       -Carolina Saez Redital
+       -Gustavo Solar
+       -Guillermo Malvoa
+       -Carlos Beltrán
+    -->
+</head>
+
+<body>
+    <!-- se usa nav para barra de navegacion -->
+    <!-- se usa div para poder centrar texto y que ocupe todo el ancho -->
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./Index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">ESTADISTICAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- se usa header para todo lo que es el encabezado -->
+    <header>
+        <!-- se usa h1 para titulo principal -->
+        <h1>Te lo Vendo</h1>
+    </header>
+
+    <div class="container">
+
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>ID del Producto</th>
+                    <th>Nombre del Producto</th>
+                    <th>Stock</th>
+                    <th>Precio (CLP)</th>
+                    <th>Proveedor</th>
+                    <th>Fecha de Ingreso</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>001</td>
+                    <td>Auriculares Bluetooth</td>
+                    <td>50</td>
+                    <td>$19.990</td>
+                    <td>AudioTech</td>
+                    <td>2022-03-15</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Smartwatch</td>
+                    <td>35</td>
+                    <td>$29.990</td>
+                    <td>TechZone</td>
+                    <td>2022-02-20</td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>Teclado Inalámbrico</td>
+                    <td>100</td>
+                    <td>$12.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-01-25</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Mouse Gaming</td>
+                    <td>75</td>
+                    <td>$9.990</td>
+                    <td>GamerLand</td>
+                    <td>2022-02-02</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Disco Duro Externo 1TB</td>
+                    <td>20</td>
+                    <td>$54.990</td>
+                    <td>StoragePlus</td>
+                    <td>2021-12-30</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>Impresora Multifuncional</td>
+                    <td>65</td>
+                    <td>$69.990</td>
+                    <td>OfficeDepot</td>
+                    <td>2022-01-15</td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>Monitor LED 24"</td>
+                    <td>30</td>
+                    <td>$129.990</td>
+                    <td>TechZone</td>
+                    <td>2021-11-22</td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>Tablet Android</td>
+                    <td>25</td>
+                    <td>$79.990</td>
+                    <td>MobileTech</td>
+                    <td>2022-03-01</td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>Cámara de Acción</td>
+                    <td>40</td>
+                    <td>$39.990</td>
+                    <td>OutdoorSports</td>
+                    <td>2022-02-10</td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>Altavoz Portátil Bluetooth</td>
+                    <td>60</td>
+                    <td>$24.990</td>
+                    <td>AudioTech</td>
+                    <td>2022-02-05</td>
+                </tr>
+                <tr>
+                    <td>011</td>
+                    <td>Controlador de Juegos</td>
+                    <td>50</td>
+                    <td>$14.990</td>
+                    <td>GamerLand</td>
+                    <td>2022-01-10</td>
+                </tr>
+                <tr>
+                    <td>012</td>
+                    <td>Proyector Full HD</td>
+                    <td>15</td>
+                    <td>$249.990</td>
+                    <td>OfficeDepot</td>
+                    <td>2022-03-20</td>
+                </tr>
+                <tr>
+                    <td>013</td>
+                    <td>Audífonos Inalámbricos</td>
+                    <td>40</td>
+                    <td>$34.990</td>
+                    <td>TechZone</td>
+                    <td>2022-02-28</td>
+                </tr>
+                <tr>
+                    <td>014</td>
+                    <td>Ratón Inalámbrico</td>
+                    <td>80</td>
+                    <td>$7.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-01-05</td>
+                </tr>
+                <tr>
+                    <td>015</td>
+                    <td>Teclado Gaming</td>
+                    <td>30</td>
+                    <td>$29.990</td>
+                    <td>GamerLand</td>
+                    <td>2022-03-10</td>
+                </tr>
+                <tr>
+                    <td>016</td>
+                    <td>Webcam Full HD</td>
+                    <td>25</td>
+                    <td>$24.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-02-18</td>
+                </tr>
+                <tr>
+                    <td>017</td>
+                    <td>Smartphone Android</td>
+                    <td>45</td>
+                    <td>$179.990</td>
+                    <td>MobileTech</td>
+                    <td>2022-03-05</td>
+                </tr>
+                <tr>
+                    <td>018</td>
+                    <td>Router Wi-Fi AC</td>
+                    <td>20</td>
+                    <td>$44.990</td>
+                    <td>TechZone</td>
+                    <td>2022-01-22</td>
+                </tr>
+                <tr>
+                    <td>019</td>
+                    <td>SSD 500GB</td>
+                    <td>15</td>
+                    <td>$84.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-04-01</td>
+                </tr>
+                <tr>
+                    <td>020</td>
+                    <td>Monitor 24"</td>
+                    <td>10</td>
+                    <td>$99.990</td>
+                    <td>OfficeDepot</td>
+                    <td>2022-04-03</td>
+                </tr>
+                <tr>
+                    <td>021</td>
+                    <td>Impresora Multifuncional</td>
+                    <td>5</td>
+                    <td>$129.990</td>
+                    <td>TechZone</td>
+                    <td>2022-04-05</td>
+                </tr>
+                <tr>
+                    <td>022</td>
+                    <td>Cámara Deportiva 4K</td>
+                    <td>20</td>
+                    <td>$44.990</td>
+                    <td>MobileTech</td>
+                    <td>2022-04-07</td>
+                </tr>
+                <tr>
+                    <td>023</td>
+                    <td>Auriculares con Cancelación de Ruido</td>
+                    <td>25</td>
+                    <td>$89.990</td>
+                    <td>AudioTech</td>
+                    <td>2022-04-08</td>
+                </tr>
+                <tr>
+                    <td>024</td>
+                    <td>Teclado Inalámbrico para Smart TV</td>
+                    <td>15</td>
+                    <td>$19.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-04-09</td>
+                </tr>
+                <tr>
+                    <td>025</td>
+                    <td>Monitor Curvo 27"</td>
+                    <td>8</td>
+                    <td>$269.990</td>
+                    <td>OfficeDepot</td>
+                    <td>2022-04-10</td>
+                </tr>
+                <tr>
+                    <td>026</td>
+                    <td>Mousepad Gamer</td>
+                    <td>30</td>
+                    <td>$9.990</td>
+                    <td>GamerLand</td>
+                    <td>2022-04-12</td>
+                </tr>
+                <tr>
+                    <td>027</td>
+                    <td>Procesador Intel Core i7</td>
+                    <td>10</td>
+                    <td>$319.990</td>
+                    <td>PCWorld</td>
+                    <td>2022-04-13</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+    </div>
+
+    <footer>
+        <div align="center">
+            Te lo Vendo - <span id="anio"></span>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        fecha = new Date();
+        document.getElementById('anio').innerText = fecha.getFullYear();
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <script src="./assets/js/jqFunciones.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

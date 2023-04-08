@@ -24,8 +24,13 @@ function validarFormulario() {
         form.submit();//submitear el formulario
       }
     });
+
+
+
+
     
   })
+  
   
 
 
