@@ -1,4 +1,6 @@
-$(document).ready( function () {
+$(document).ready( function () {//evento cuando documento este listo
+    //SE usa libreria datatable en tabla de archivo estadisticas
+    //se le cambian textos de ingles a español, como el buscar, mostrar x registros, etc
     $('#tabla').DataTable({
        "language":{
             "search":         "Buscar:",

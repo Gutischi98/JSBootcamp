@@ -58,9 +58,9 @@
         <!-- se usa h1 para titulo principal -->
         <h1>Te lo Vendo</h1>
     </header>
-
+<!-- Se crea container para centrar contenido -->
     <div class="container">
-
+        <!-- se crea tabla a la que se aplicara datatable -->
         <table id="tabla">
             <thead>
                 <tr>
@@ -296,7 +296,7 @@
 
 
     </div>
-
+    <!-- footer con nombre de empresa y año actual -->
     <footer>
         <div align="center">
             Te lo Vendo - <span id="anio"></span>
@@ -305,8 +305,8 @@
 
 
     <script type="text/javascript">
-        fecha = new Date();
-        document.getElementById('anio').innerText = fecha.getFullYear();
+        let fecha = new Date();
+        document.getElementById('anio').innerText = fecha.getFullYear(); //ingresa año a span con id anio 
 
     </script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
