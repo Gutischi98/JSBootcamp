@@ -257,6 +257,8 @@ table.dataTable.no-footer {
     --bs-btn-disabled-bg:rgba(15, 3, 38, 0.4) !important;
     --bs-btn-disabled-border-color:rgba(15, 3, 38, 0.4) !important;
 }
+
+
 /* Para teléfonos móviles: */
 
 /* @media screen and (max-width: 414px) {
