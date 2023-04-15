@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   background: rgba(0, 0, 0, 0.787);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 button {
@@ -49,7 +49,7 @@ button:focus {
   filter: blur(8px);
   pointer-events: none;
   user-select: none;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 .app__bg::before {
   content: "";
@@ -178,6 +178,7 @@ button:focus {
   --card-translateX-offset: calc(var(--card-width) * 1.1);
   --card-rotation-offset: -25deg;
 }
+
 .card.previous--card, .card.next--card {
   --card-scale-offset: 0.9;
   --opacity: 0.4;
