@@ -1,6 +1,7 @@
-*{
+* {
     padding: 0;
 }
+
 html {
     font-size: 16px;
     /* padding: 0; */
@@ -8,6 +9,8 @@ html {
 
 
 body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(64, 9, 121, 1) 19%, rgba(36, 17, 173, 0.5816701680672269) 50%, rgba(114, 7, 164, 1) 76%, rgba(3, 40, 47, 1) 100%);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     margin: 0;
 }
@@ -25,10 +28,16 @@ footer {
 }
 
 .informacion {
+    background: rgba(15, 3, 38, 0.74);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
     margin: 5rem auto;
     padding: 1rem;
-    background-color: #BFBFBF;
+    /* background-color: #BFBFBF; */
     width: 80%;
+    color: rgba(252, 242, 228, 0.856);
 }
 
 /* .imagenes {
@@ -37,6 +46,11 @@ footer {
 } */
 
 .row {
+    background: rgba(15, 3, 38, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-evenly;
     width: 80%;
@@ -57,7 +71,13 @@ footer {
 nav {
     width: 100%;
     height: auto;
-    background-color: #2261c8;
+    /* background-color: #0f0326; */
+    background: rgba(15, 3, 38, 0.74);
+    /* border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    /* background-color: #2261c8; */
     color: white;
     font-weight: 900;
 }
@@ -167,8 +187,8 @@ a:hover {
         width: 100%;
     } */
 
-    /* FORMULARIO CONTACTO */
-    /* .container{
+/* FORMULARIO CONTACTO */
+/* .container{
         width: 90%;
         padding: 1rem 0;
         box-sizing: content-box;
