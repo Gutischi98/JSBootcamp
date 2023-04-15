@@ -13,9 +13,6 @@
 
 [Página en vivo](https://gutischi98.github.io/JSBootcamp/index.html)
 
-### Deploy de página (después de cambios CSS):
-
-[Página en vivo](https://caredital.github.io/JSBootcampCopy/index.html)
 
 ### Frameworks y librerías usadas
 
