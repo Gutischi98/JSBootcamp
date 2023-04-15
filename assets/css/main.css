@@ -323,4 +323,9 @@ table.dataTable.no-footer {
 
 
 /* Para ipad */
-@media screen and (max-width: 812px) {}
+@media screen and (max-width: 812px) {
+    h1.display-1 {
+        font-size: 3.5rem;
+     
+    }
+}
