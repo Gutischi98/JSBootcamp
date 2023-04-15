@@ -29,7 +29,7 @@
 <body>
     <!-- se usa nav para barra de navegacion -->
     <!-- se usa div para poder centrar texto y que ocupe todo el ancho -->
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -56,12 +56,12 @@
     <!-- se usa header para todo lo que es el encabezado -->
     <header>
         <!-- se usa h1 para titulo principal -->
-        <h1>Te lo Vendo</h1>
+        <h1 class="display-1">Te lo Vendo</h1>
     </header>
 <!-- Se crea container para centrar contenido -->
     <div class="container">
         <!-- se crea tabla a la que se aplicara datatable -->
-        <table id="tabla">
+        <table id="tabla" class="tabla">
             <thead>
                 <tr>
                     <th>ID del Producto</th>
